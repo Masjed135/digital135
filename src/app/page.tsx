@@ -11,8 +11,7 @@ export default function Home() {
 
         <div className="container mx-auto px-4 py-4 flex flex-col justify-center items-center">
 
-
-        <h1 className={ `font-black text-white mb-8 text-xl md:hidden xs:block`}>خانه فرهنگ و دیجیتال مسجد الزهرا
+        <h1 className={ `font-black text-white mb-8 text-center text-sm md:hidden xs:block`}>خانه فرهنگ و دیجیتال مسجد الزهرا
         <sup>(س) </sup>
         برگزار میکند:</h1>
 
@@ -23,11 +22,18 @@ export default function Home() {
                width={700}
                height={510}
             />
-            <div className="bg-[#030435d2] p-4 rounded-xl mb-10">
-            <p className={'font-light text-xl md:text-4xl  text-pink-500 mb-5'}>چهارشنبه و پنجشنبه و جمعه 16 و 17 و 18 اسفند ماه 1403</p>
-            <p className={'font-light text-xl md:text-4xl  text-cyan-400'}>کاشان - خیابان شهید صالحی - کوچه جنب مسجد الزهرا<sup>(س)</sup></p>
+            <div className="bg-[#030435d2] text-center p-4 rounded-xl mt-6 mb-10">
+            <p className={'font-light text-lg md:text-4xl  text-yellow-400 mb-3'}>درگروه های 3 نفره، نفری 60 هزار تومان</p>
+
+            <p className={'font-light text-xl md:text-4xl  text-pink-500 mb-3'}>چهارشنبه 22 اسفند ماه 1403_ساعت 20</p>
+            <p className={'font-light text-lg md:text-4xl  text-cyan-400 '}>کاشان - خیابان شهید صالحی - کوچه جنب مسجد الزهرا<sup>(س)</sup></p>
             </div>
-            <Countdown  targetDate="2025-03-01T12:00:00" />
+            <Countdown  targetDate="2025-03-12T16:30:00Z" />
+
+            {/* <div className="text-center mt-5">
+              <p className="text-white">کسب اطلاعات بیشتر</p>
+              <p className="text-white">09921938100</p>
+            </div> */}
         </div>
       </div>
     </div>
