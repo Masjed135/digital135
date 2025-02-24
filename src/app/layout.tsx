@@ -7,12 +7,12 @@ import "./globals.css";
 const shabnam = localFont({
   src: [
     {
-      path: '../../public/fonts/shabnam/Shabnam-FD.woff2',
+      path: './fonts/shabnam/Shabnam-FD.woff2',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/shabnam/Shabnam-Bold-FD.woff2',
+      path: './fonts/shabnam/Shabnam-Bold-FD.woff2',
       weight: '600',
       style: 'bold',
     },
@@ -23,7 +23,7 @@ const shabnam = localFont({
 export const lalezar = localFont({
   src: [
     {
-      path: '../../public/fonts/lalezar/Lalezar-Regular.woff2',
+      path: './fonts/lalezar/Lalezar-Regular.woff2',
       weight: '400',
       style: 'normal',
     },
