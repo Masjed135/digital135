@@ -30,7 +30,7 @@ export default function Header() {
                 <DialogTrigger className="bg-white rounded-sm p-3 font-bold hover:bg-yellow-400 transition-colors">
                 ثبت نام
                 </DialogTrigger>
-                <DialogContent>
+                <DialogContent className="w-full">
                   <DialogHeader>
                     <DialogTitle className="mb-5">ثبت نام</DialogTitle>
                    
