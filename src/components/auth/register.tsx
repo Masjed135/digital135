@@ -79,7 +79,7 @@ export default function Register() {
       
     return (
         <>
-            <form onSubmit={handleSubmit} className="space-y-4 mt-5 text-start">
+            <form onSubmit={handleSubmit} className="space-y-2 mt-5 text-start">
                 <h3 className="text-xl">سرگروه</h3>
 
                 <div>
