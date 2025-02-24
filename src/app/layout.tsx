@@ -20,17 +20,6 @@ const shabnam = localFont({
   ],
 })
 
-export const lalezar = localFont({
-  src: [
-    {
-      path: './fonts/lalezar/Lalezar-Regular.woff2',
-      weight: '400',
-      style: 'normal',
-    },
-   
-  ],
-})
-
 
 export const metadata: Metadata = {
   title: "خانه فرهنگ و دیجیتال مسجد الزهرا(س)",

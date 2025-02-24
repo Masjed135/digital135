@@ -1,4 +1,3 @@
-import { lalezar } from "@/app/layout";
 import Image from "next/image";
 
 export default function Header() {
@@ -10,7 +9,7 @@ export default function Header() {
             width={90}
             height={90}
         />
-      <h1 className={lalezar.className + ` text-white text-3xl`}>خانه فرهنگ و دیجیتال مسجد الزهرا
+      <h1 className={ `font-black text-white text-3xl`}>خانه فرهنگ و دیجیتال مسجد الزهرا
         <sup>(س) </sup>
         برگزار میکند:</h1>
 
