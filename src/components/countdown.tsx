@@ -42,9 +42,9 @@ export default function Countdown({ targetDate }: CountdownTimerProps) {
   return (
 <>
       {timeLeft ? (
-         <div className="p-4 bg-gray-100 rounded-xl shadow-md w-80 text-center">
-      <h2 className="text-xl font-bold mb-2">شمارش معکوس</h2>
-        <div className="text-lg font-semibold">
+         <div className="p-4 bg-gray-100 rounded-xl shadow-md text-center">
+      <h2 className="text-2xl font-bold mb-2">شمارش معکوس</h2>
+        <div className="text-2xl font-semibold">
           {timeLeft.days} روز | {timeLeft.hours} ساعت | {timeLeft.minutes} دقیقه | {timeLeft.seconds} ثانیه
         </div>
         </div>
